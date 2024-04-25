@@ -1,0 +1,159 @@
+body {
+    background-color: hsl(226, 43%, 10%);
+    width: 100dvw;
+    height: 100dvh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik';
+}
+
+.design {
+    width: 38rem;
+    height: 15rem;
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-1,
+.section-2 {
+    /* position: sticky; */
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    height: 15rem;
+    border-radius: 8px;
+}
+
+.section-1 {
+    background-color: hsl(235, 46%, 20%);
+    margin-right: 10px;
+}
+
+.user-profile {
+    top: 15%;
+    left: 15%;
+    transform: translate(40%, 40%);
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-size: 18px;
+    color: #ffffff;
+    left: 15%;
+    transform: translate(15%, 0%);
+}
+
+.user-data {
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+p {
+    left: 15%;
+    transform: translate(15%, 10%);
+    color: hsl(236, 100%, 87%);
+    font-size: 11px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+p:focus {
+    color: #ffffff;
+}
+
+.icons {
+    float: inline-end;
+    margin-right: 10px;
+}
+
+.section-2 {
+    background-color: hsl(226, 43%, 10%);
+    padding: 0px 10px;
+}
+
+.user {
+    position: sticky;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 8px;
+}
+
+.daily-activity {
+    position: sticky;
+    height: 13rem;
+    border-radius: 8px;
+}
+
+.work-text,
+.exercise-text {
+    position: fixed;
+    background-color: hsl(235, 46%, 20%);
+    width: 8.5rem;
+    height: 5.8rem;
+    border-radius: 8px;
+}
+
+.work-text {
+    top: 23px;
+}
+
+.exercise-text {
+    top: 148px;
+}
+
+h2 {
+    color: #ffffff;
+    width: 70px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: normal;
+}
+
+.Work {
+    background-color: hsl(15, 100%, 70%);
+    margin-bottom: 10px;
+}
+
+.context {
+    font-size: 11px;
+}
+
+.ellipsis {
+    position: absolute;
+    float: inline-end;
+    left: 75%;
+    top: 12%;
+}
+
+.previous {
+    position: absolute;
+    font-size: 11px;
+    top: 65px;
+    left: 7px;
+}
+
+.Exercise {
+    background-color: hsl(145, 58%, 55%);
+}
+
+.Play {
+    background-color: hsl(195, 74%, 62%);
+    margin-bottom: 10px;
+}
+
+.Social {
+    background-color: hsl(264, 64%, 52%);
+}
+
+.Study {
+    background-color: hsl(348, 100%, 68%);
+    margin-bottom: 10px;
+}
+
+.Self-Care {
+    background-color: hsl(43, 84%, 65%);
+}

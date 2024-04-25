@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Time Tracking Dashboard</title>
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="design">
+    <div class="section-1">
+      <section class="user">
+        <img class="user-profile" src="./images/image-jeremy.png" width="40" height="40">
+        <p class="user-name"><span class="user-data">Report for<br></span>Jeremy <br>Robson</p>
+      </section>
+      <p id="daily">Daily</p>
+      <p id="weekly">Weekly</p>
+      <p id="monthly">Monthly</p>
+    </div>
+
+    <div class="section-2">
+      <section class="Work daily-activity">
+        <img class="icons" src="./images/icon-work.svg" alt="" width="35" height="35">
+        <div class="work-text">
+          <div>
+            <p id="Work" class="context">Work</p>
+            <img class="ellipsis" src="./images/icon-ellipsis.svg" alt="" width="15">
+            <h2 id="time-Work">0hrs</h2>
+            <p id="past-Work" class="previous">Last Week - 0hrs</p>
+          </div>
+
+        </div>
+      </section>
+      <section class="Exercise daily-activity">
+        <img class="icons" src="./images/icon-exercise.svg" alt="" width="35" height="35">
+        <div class="exercise-text">
+          <div>
+            <p id="Exercise" class="context">Exercise</p>
+            <img class="ellipsis" src="./images/icon-ellipsis.svg" alt="" width="15">
+            <h2 id="time-Exercise">0hrs</h2>
+            <p id="past-Exercise" class="previous">Last Week - 0hrs</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="section-2">
+      <section class="Play daily-activity">
+        <img class="icons" src="./images/icon-play.svg" alt="" width="35" height="35">
+        <div class="work-text">
+          <div>
+            <p id="Play" class="context">Play</p>
+            <img class="ellipsis" src="./images/icon-ellipsis.svg" alt="" width="15">
+            <h2 id="time-Play">0hrs</h2>
+            <p id="past-Play" class="previous">Last Week - 0hrs</p>
+          </div>
+        </div>
+      </section>
+      <section class="Social daily-activity">
+        <img class="icons" src="./images/icon-social.svg" alt="" width="35" height="35">
+        <div class="exercise-text">
+          <div>
+            <p id="Social" class="context">Social</p>
+            <img class="ellipsis" src="./images/icon-ellipsis.svg" alt="" width="15">
+            <h2 id="time-Social">0hrs</h2>
+            <p id="past-Social" class="previous">Last Week - 0hrs</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="section-2">
+      <section class="Study daily-activity">
+        <img class="icons" src="./images/icon-study.svg" alt="" width="35" height="35">
+        <div class="work-text">
+          <div>
+            <p id="study" class="context">Study</p>
+            <img class="ellipsis" src="./images/icon-ellipsis.svg" alt="" width="15">
+            <h2 id="time-Study">0hrs</h2>
+            <p id="past-Study" class="previous">Last Week - 0hrs</p>
+          </div>
+        </div>
+      </section>
+      <section class="Self-Care daily-activity">
+        <img class="icons" src="./images/icon-self-care.svg" alt="" width="35" height="35">
+        <div class="exercise-text">
+          <div>
+            <p id="Self-Care" class="context">Self-Care</p>
+            <img class="ellipsis" src="./images/icon-ellipsis.svg" alt="" width="15">
+            <h2 id="time-Self-Care">0hrs</h2>
+            <p id="past-Self-Care" class="previous">Last Week - 0hrs</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="script.js" type="module"></script>
+</body>
+
+</html>
